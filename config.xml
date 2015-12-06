@@ -1,6 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <hudson>
-  <disabledAdministrativeMonitors/>
+  <disabledAdministrativeMonitors>
+    <string>jenkins.security.s2m.MasterKillSwitchWarning</string>
+  </disabledAdministrativeMonitors>
   <version>1.639</version>
   <numExecutors>2</numExecutors>
   <mode>NORMAL</mode>
@@ -18,6 +20,7 @@
     <permission>hudson.model.Computer.Delete:qqshi</permission>
     <permission>hudson.model.Computer.Disconnect:qqshi</permission>
     <permission>hudson.model.Hudson.Administer:qqshi</permission>
+    <permission>hudson.model.Hudson.Administer:stevenqshi623</permission>
     <permission>hudson.model.Hudson.ConfigureUpdateCenter:qqshi</permission>
     <permission>hudson.model.Hudson.Read:qqshi</permission>
     <permission>hudson.model.Hudson.RunScripts:qqshi</permission>
